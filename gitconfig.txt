@@ -1,0 +1,20 @@
+                    CONFIGURANDO O GITHUB
+git config --global user.name vinisaomtec-source
+git config --global user.email vinisaomtec@gmail.com
+
+-----------------------------------------------------------
+                    ABRINDO O PROJETO
+cd EtecBus
+
+npx expo start --tunnel 
+    (conectar no wifi: convidados(senha etec@wifi) (no android))      (PODE USAR O DADOS MOVEIS, MAS EVITAR PELO CONSUMO DE INTERNET)
+    escanear o qrcode no app Expo Go
+
+npx expo start --android
+
+-----------------------------------------------------------
+                    CREANDO O PROJETO
+npx create-expo-app@latest EtecBus --template blank
+
+                    INSTALANDO DEPENDENCIAS
+npx expo install expo-location react-native-webview
