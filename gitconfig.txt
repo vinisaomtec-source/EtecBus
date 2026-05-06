@@ -13,7 +13,7 @@ npx expo start --tunnel
 npx expo start --android
 
 -----------------------------------------------------------
-                    CREANDO O PROJETO
+                    CRIANDO O PROJETO
 npx create-expo-app@latest EtecBus --template blank
 
                     INSTALANDO DEPENDENCIAS
